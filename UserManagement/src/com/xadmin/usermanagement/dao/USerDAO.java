@@ -21,7 +21,7 @@ import com.xadmin.usermanagement.model.User;
 public class USerDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/userdb?useSSL=false";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "rootpasswordgiven";
+	private String jdbcPassword = "admin";
 
 	private static final String INSERT_USERS_SQL = "INSERT INTO users" + "  (name, email, country) VALUES "
 			+ " (?, ?, ?);";
